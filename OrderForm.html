@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .wufoo{
+            font-family: "Lucida Bright","Lucida Sans Unicode",Tahoma,sans-serif;
+        }
+        form{
+            height: 600px;
+            width: 400px;
+            box-shadow: aquamarine 0px 0px 5px 5px ;
+            text-align: center;
+
+            align-items: center;
+
+        }
+
+        h1{
+            text-align: center;
+
+        }
+        p{
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body >
+    <form method="get" action="OrderForm.html" class="wufoo">
+        <h1 >Order Form</h1>
+        <p>What would your like to buy</p>
+        <select>
+            <option value=" ">A</option>
+            <option>B(+0.5$)</option>
+            <option>C(+0.5$)</option>
+        </select><br/>
+        <p>How many would you like to order?</p>
+        <input type="radio" name="NumbOrder"/>1-$10<br/>
+        <input type="radio" name="NumbOrder"/>2-$20<br/>
+        <input type="radio" name="NumbOrder"/>3-$25<br/>
+        <b>Name</b><span style="color: red">*</span><br/>
+        <input type="text" name="Info" id="FirstName" placeholder="FirstName" size="15">
+        <input type="text" name="Info" id="LastName"  placeholder="LastName"  size="15">
+        <br/>
+        <b>Email</b><br/>
+        <input type="text" name="Info" id="Email"size="35">
+        <br/>
+        <b>Phone Number</b><br/>
+        <input type="text" name="phoneNumb1" size="5"/>-
+        <input type="text" name="phoneNumb2" size="5"/>-
+        <input type="text" name="phoneNumb3" size="5"/>
+        <p><input type="button" name="btSubmit" value="Submit"/></p>
+    </form>
+</body>
+</html>
