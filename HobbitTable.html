@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        form{
+
+            border: aquamarine 10px solid ;
+            border-collapse: collapse;
+            height:260px ;
+            width: 560px;
+        }
+        table{
+            border-collapse: collapse;
+            border :white 10px solid ;
+            height:260px ;
+            width: 560px;
+        }
+        input {
+            border-radius: 10px;
+        }
+        td
+        {
+            color: red;
+s
+        }
+
+    </style>
+
+</head>
+<body>
+<form>
+  <table>
+
+        <tr style="background: chocolate; color: #ffffff">
+            <th colspan="4">SỞ THÍCH CỦA BẠN</th>
+        </tr>
+        <tr>
+            <td style="text-align: right; color: mediumblue;">Họ và tên</td>
+            <td colspan="3">
+                <input type="text" size="35"/>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right; color: mediumblue"> Email</td>
+
+            <td colspan="3">
+                <input type="text" size="20"/>
+            </td>
+        </tr>
+      <tr>
+          <td style="text-align: right; color: mediumblue;
+                     vertical-align: top"
+              rowspan="4">Sở thích</td>
+          <td style="align-items: normal ;"  >
+              <input type="checkbox" name="Hobbit"id="Sport" value="Thể thao"/>Thể thao
+          </td>
+          <td style="align-items: normal ;">
+              <input type="checkbox" name="Hobbit"id="Music" value="Âm nhạc"/>Âm nhạc
+
+          </td>
+          <td style="align-items: normal;">
+              <input type="checkbox" name="Hobbit"id="Book" value="Đọc sách"/>Đọc sách
+
+          </td>
+      </tr>
+      <tr>
+          <td>
+              <input type="checkbox" name="Hobbit"id="Web" value="Lướt Web"/>Lướt Web
+
+          </td>
+          <td>
+              <input type="checkbox" name="Hobbit"id="Game" value="Chơi game"/>Chơi game
+          </td>
+          <td>
+              <input type="checkbox" name="Hobbit"id="Movie" value="Điện ảnh"/>Điện ảnh
+          </td>
+
+      </tr>
+      <tr>
+          <td>
+              <input type="checkbox" name="Hobbit"id="travel" value="Du lịch"/>Du lịch
+          </td>
+      </tr>
+      <tr>
+          <td colspan="4">
+              <input type="submit" name="Submit"value="Gửi thông tin">
+              <input  type="reset" name="Reset" value="Nhập lại"/>
+          </td>
+      </tr>
+  </table>
+</form>
+</body>
+</html>

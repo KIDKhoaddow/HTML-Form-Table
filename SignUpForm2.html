@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        form{
+            height: fit-content;
+            width: fit-content;
+            border-collapse: collapse;
+            background:palegoldenrod;
+        }
+        table{
+            horiz-align: left;
+            margin: 2px 2px 2px 2px;
+            width: 500px;
+        }
+        td {
+            color: mediumblue;
+            width: 50px;
+            text-align: left;
+        }
+        th{
+            background: aquamarine;
+            color: mediumblue;
+        }
+    </style>
+</head>
+<body>
+<form>
+  <table>
+        <tr>
+            <th colspan="2">ĐĂNG KÝ HỌC VIÊN</th>
+        </tr>
+        <tr>
+            <td>Họ và tên</td>
+            <td>
+                <input type="text"size="20">
+            </td>
+        </tr>
+      <tr>
+          <td>Ngày sinh</td>
+          <td>
+              <input type="text"size="10">
+          </td>
+      </tr>
+      <tr>
+          <td>Giới tính</td>
+          <td><input type="radio" name="gender" id="Male" value="Male">Nam
+              <input type="radio" name="gender" id="Female" value="Female">Nữ</td>
+
+      </tr>
+
+      <tr>
+          <td style="vertical-align: top">Địa chỉ</td>
+          <td>
+              <input type="text"style="width: 160px;height: 60px">
+          </td>
+      </tr>
+
+      <tr>
+          <td>Lớp</td>
+          <td>
+              <select>
+                <option>--Chọn lớp--</option>
+              </select>
+          </td>
+      </tr>
+      <tr>
+          <td>Email</td>
+          <td>
+              <input type="text"size="15">
+          </td>
+      </tr>
+      <tr>
+          <td rowspan="2" style="vertical-align:top ">Điện thoại</td>
+          <td>
+              <input type="text"size="15">
+          </td>
+      </tr>
+      <tr>
+          <td>
+              <input type="submit"name="Submit"id="SignUp"value="Đăng ký"/>
+              <input type="reset"name="Submit"id="Reset"value="Nhập lại"/>
+          </td>
+      </tr>
+  </table>
+</form>
+</body>
+</html>
